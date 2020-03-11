@@ -1,0 +1,13 @@
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-03-10 18:10 CST
+Nmap scan report for vinculacion.itmorelia.edu.mx (200.33.171.124)
+Host is up (0.082s latency).
+Not shown: 995 filtered ports
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+80/tcp   open   http
+113/tcp  closed ident
+443/tcp  closed https
+8008/tcp open   http
+
+Nmap done: 1 IP address (1 host up) scanned in 36.60 seconds

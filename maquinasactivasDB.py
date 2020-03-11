@@ -12,8 +12,12 @@ operacion = conexion.cursor()
 computadora = "200.33.171.124"
 comando = "nmap -sT  200.33.171.124"
 
-#resultado = os.popen(comando)
-#puertos = resultado.readlines()
+resultado = os.popen(comando)
+puertos = resultado.readlines()
+#print(puertos)
+archivo1 = open ('puertos.txt', 'w')
+archivo1.writelines(puertos)
+archivo1.close()
 
 archivo = open ('puertos.txt')
 texto = archivo.readlines()
